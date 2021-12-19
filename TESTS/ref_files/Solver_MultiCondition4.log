@@ -1,0 +1,359 @@
+ 
+( ( Var_new_8 == 8 || Var_new_1 == 1 ) && ( ( Var_new_1 == 1 || Var_new_2 == 2 || Var_new_3 == 3 || Var_new_4 == 4 ) && ( Var_new_5 == 5 || Var_new_6 == 6 || Var_new_7 == 7 || Var_new_8 == 8 ) ) ) 
+
+{
+    "Var_new_1 == 1 and Var_new_2 == 2 and Var_new_5 == 5": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_2": [
+            2
+        ],
+        "Var_new_5": [
+            5
+        ]
+    },
+    "Var_new_1 == 1 and Var_new_2 == 2 and Var_new_6 == 6": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_2": [
+            2
+        ],
+        "Var_new_6": [
+            6
+        ]
+    },
+    "Var_new_1 == 1 and Var_new_2 == 2 and Var_new_7 == 7": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_2": [
+            2
+        ],
+        "Var_new_7": [
+            7
+        ]
+    },
+    "Var_new_1 == 1 and Var_new_3 == 3 and Var_new_5 == 5": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_3": [
+            3
+        ],
+        "Var_new_5": [
+            5
+        ]
+    },
+    "Var_new_1 == 1 and Var_new_3 == 3 and Var_new_6 == 6": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_3": [
+            3
+        ],
+        "Var_new_6": [
+            6
+        ]
+    },
+    "Var_new_1 == 1 and Var_new_3 == 3 and Var_new_7 == 7": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_3": [
+            3
+        ],
+        "Var_new_7": [
+            7
+        ]
+    },
+    "Var_new_1 == 1 and Var_new_4 == 4 and Var_new_5 == 5": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_4": [
+            4
+        ],
+        "Var_new_5": [
+            5
+        ]
+    },
+    "Var_new_1 == 1 and Var_new_4 == 4 and Var_new_6 == 6": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_4": [
+            4
+        ],
+        "Var_new_6": [
+            6
+        ]
+    },
+    "Var_new_1 == 1 and Var_new_4 == 4 and Var_new_7 == 7": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_4": [
+            4
+        ],
+        "Var_new_7": [
+            7
+        ]
+    },
+    "Var_new_1 == 1 and Var_new_5 == 5": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_5": [
+            5
+        ]
+    },
+    "Var_new_1 == 1 and Var_new_6 == 6": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_6": [
+            6
+        ]
+    },
+    "Var_new_1 == 1 and Var_new_7 == 7": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_7": [
+            7
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_1 == 1": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_1 == 1 and Var_new_2 == 2": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_2": [
+            2
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_1 == 1 and Var_new_3 == 3": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_3": [
+            3
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_1 == 1 and Var_new_4 == 4": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_4": [
+            4
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_1 == 1 and Var_new_5 == 5": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_5": [
+            5
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_1 == 1 and Var_new_6 == 6": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_6": [
+            6
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_1 == 1 and Var_new_7 == 7": {
+        "Var_new_1": [
+            1
+        ],
+        "Var_new_7": [
+            7
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_2 == 2": {
+        "Var_new_2": [
+            2
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_2 == 2 and Var_new_5 == 5": {
+        "Var_new_2": [
+            2
+        ],
+        "Var_new_5": [
+            5
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_2 == 2 and Var_new_6 == 6": {
+        "Var_new_2": [
+            2
+        ],
+        "Var_new_6": [
+            6
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_2 == 2 and Var_new_7 == 7": {
+        "Var_new_2": [
+            2
+        ],
+        "Var_new_7": [
+            7
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_3 == 3": {
+        "Var_new_3": [
+            3
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_3 == 3 and Var_new_5 == 5": {
+        "Var_new_3": [
+            3
+        ],
+        "Var_new_5": [
+            5
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_3 == 3 and Var_new_6 == 6": {
+        "Var_new_3": [
+            3
+        ],
+        "Var_new_6": [
+            6
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_3 == 3 and Var_new_7 == 7": {
+        "Var_new_3": [
+            3
+        ],
+        "Var_new_7": [
+            7
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_4 == 4": {
+        "Var_new_4": [
+            4
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_4 == 4 and Var_new_5 == 5": {
+        "Var_new_4": [
+            4
+        ],
+        "Var_new_5": [
+            5
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_4 == 4 and Var_new_6 == 6": {
+        "Var_new_4": [
+            4
+        ],
+        "Var_new_6": [
+            6
+        ],
+        "Var_new_8": [
+            8
+        ]
+    },
+    "Var_new_8 == 8 and Var_new_4 == 4 and Var_new_7 == 7": {
+        "Var_new_4": [
+            4
+        ],
+        "Var_new_7": [
+            7
+        ],
+        "Var_new_8": [
+            8
+        ]
+    }
+}
+
+|    | Condition                                            | Result                                                                |
+|---:|:-----------------------------------------------------|:----------------------------------------------------------------------|
+|  0 | Var_new_8 == 8 and Var_new_1 == 1 and Var_new_5 == 5 | {'Var_new_8': [(8, 9)], 'Var_new_1': [(1, 2)], 'Var_new_5': [(5, 6)]} |
+|  1 | Var_new_8 == 8 and Var_new_1 == 1 and Var_new_6 == 6 | {'Var_new_8': [(8, 9)], 'Var_new_1': [(1, 2)], 'Var_new_6': [(6, 7)]} |
+|  2 | Var_new_8 == 8 and Var_new_1 == 1 and Var_new_7 == 7 | {'Var_new_8': [(8, 9)], 'Var_new_1': [(1, 2)], 'Var_new_7': [(7, 8)]} |
+|  3 | Var_new_8 == 8 and Var_new_1 == 1                    | {'Var_new_8': [(8, 9)], 'Var_new_1': [(1, 2)]}                        |
+|  4 | Var_new_8 == 8 and Var_new_2 == 2 and Var_new_5 == 5 | {'Var_new_8': [(8, 9)], 'Var_new_2': [(2, 3)], 'Var_new_5': [(5, 6)]} |
+|  5 | Var_new_8 == 8 and Var_new_2 == 2 and Var_new_6 == 6 | {'Var_new_8': [(8, 9)], 'Var_new_2': [(2, 3)], 'Var_new_6': [(6, 7)]} |
+|  6 | Var_new_8 == 8 and Var_new_2 == 2 and Var_new_7 == 7 | {'Var_new_8': [(8, 9)], 'Var_new_2': [(2, 3)], 'Var_new_7': [(7, 8)]} |
+|  7 | Var_new_8 == 8 and Var_new_2 == 2                    | {'Var_new_8': [(8, 9)], 'Var_new_2': [(2, 3)]}                        |
+|  8 | Var_new_8 == 8 and Var_new_3 == 3 and Var_new_5 == 5 | {'Var_new_8': [(8, 9)], 'Var_new_3': [(3, 4)], 'Var_new_5': [(5, 6)]} |
+|  9 | Var_new_8 == 8 and Var_new_3 == 3 and Var_new_6 == 6 | {'Var_new_8': [(8, 9)], 'Var_new_3': [(3, 4)], 'Var_new_6': [(6, 7)]} |
+| 10 | Var_new_8 == 8 and Var_new_3 == 3 and Var_new_7 == 7 | {'Var_new_8': [(8, 9)], 'Var_new_3': [(3, 4)], 'Var_new_7': [(7, 8)]} |
+| 11 | Var_new_8 == 8 and Var_new_3 == 3                    | {'Var_new_8': [(8, 9)], 'Var_new_3': [(3, 4)]}                        |
+| 12 | Var_new_8 == 8 and Var_new_4 == 4 and Var_new_5 == 5 | {'Var_new_8': [(8, 9)], 'Var_new_4': [(4, 5)], 'Var_new_5': [(5, 6)]} |
+| 13 | Var_new_8 == 8 and Var_new_4 == 4 and Var_new_6 == 6 | {'Var_new_8': [(8, 9)], 'Var_new_4': [(4, 5)], 'Var_new_6': [(6, 7)]} |
+| 14 | Var_new_8 == 8 and Var_new_4 == 4 and Var_new_7 == 7 | {'Var_new_8': [(8, 9)], 'Var_new_4': [(4, 5)], 'Var_new_7': [(7, 8)]} |
+| 15 | Var_new_8 == 8 and Var_new_4 == 4                    | {'Var_new_8': [(8, 9)], 'Var_new_4': [(4, 5)]}                        |
+| 16 | Var_new_1 == 1 and Var_new_5 == 5                    | {'Var_new_1': [(1, 2)], 'Var_new_5': [(5, 6)]}                        |
+| 17 | Var_new_1 == 1 and Var_new_6 == 6                    | {'Var_new_1': [(1, 2)], 'Var_new_6': [(6, 7)]}                        |
+| 18 | Var_new_1 == 1 and Var_new_7 == 7                    | {'Var_new_1': [(1, 2)], 'Var_new_7': [(7, 8)]}                        |
+| 19 | Var_new_1 == 1 and Var_new_2 == 2 and Var_new_5 == 5 | {'Var_new_1': [(1, 2)], 'Var_new_2': [(2, 3)], 'Var_new_5': [(5, 6)]} |
+| 20 | Var_new_1 == 1 and Var_new_2 == 2 and Var_new_6 == 6 | {'Var_new_1': [(1, 2)], 'Var_new_2': [(2, 3)], 'Var_new_6': [(6, 7)]} |
+| 21 | Var_new_1 == 1 and Var_new_2 == 2 and Var_new_7 == 7 | {'Var_new_1': [(1, 2)], 'Var_new_2': [(2, 3)], 'Var_new_7': [(7, 8)]} |
+| 22 | Var_new_8 == 8 and Var_new_1 == 1 and Var_new_2 == 2 | {'Var_new_8': [(8, 9)], 'Var_new_1': [(1, 2)], 'Var_new_2': [(2, 3)]} |
+| 23 | Var_new_1 == 1 and Var_new_3 == 3 and Var_new_5 == 5 | {'Var_new_1': [(1, 2)], 'Var_new_3': [(3, 4)], 'Var_new_5': [(5, 6)]} |
+| 24 | Var_new_1 == 1 and Var_new_3 == 3 and Var_new_6 == 6 | {'Var_new_1': [(1, 2)], 'Var_new_3': [(3, 4)], 'Var_new_6': [(6, 7)]} |
+| 25 | Var_new_1 == 1 and Var_new_3 == 3 and Var_new_7 == 7 | {'Var_new_1': [(1, 2)], 'Var_new_3': [(3, 4)], 'Var_new_7': [(7, 8)]} |
+| 26 | Var_new_8 == 8 and Var_new_1 == 1 and Var_new_3 == 3 | {'Var_new_8': [(8, 9)], 'Var_new_1': [(1, 2)], 'Var_new_3': [(3, 4)]} |
+| 27 | Var_new_1 == 1 and Var_new_4 == 4 and Var_new_5 == 5 | {'Var_new_1': [(1, 2)], 'Var_new_4': [(4, 5)], 'Var_new_5': [(5, 6)]} |
+| 28 | Var_new_1 == 1 and Var_new_4 == 4 and Var_new_6 == 6 | {'Var_new_1': [(1, 2)], 'Var_new_4': [(4, 5)], 'Var_new_6': [(6, 7)]} |
+| 29 | Var_new_1 == 1 and Var_new_4 == 4 and Var_new_7 == 7 | {'Var_new_1': [(1, 2)], 'Var_new_4': [(4, 5)], 'Var_new_7': [(7, 8)]} |
+| 30 | Var_new_8 == 8 and Var_new_1 == 1 and Var_new_4 == 4 | {'Var_new_8': [(8, 9)], 'Var_new_1': [(1, 2)], 'Var_new_4': [(4, 5)]} |

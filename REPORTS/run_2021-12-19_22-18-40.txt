@@ -1,0 +1,19 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.6, pytest-6.2.5, py-1.10.0, pluggy-1.0.0
+rootdir: F:\GitRepos\LogExAn
+plugins: reporter-0.5.2, reporter-html1-0.8.2
+collected 119 items
+
+test_DualCond_Solver.py ................................................ [ 40%]
+........................                                                 [ 60%]
+test_MultiCond_Solver.py ......                                          [ 65%]
+test_SingleCond_Solver.py ......                                         [ 70%]
+Grammer\test_DualCond_Parser.py ....                                     [ 73%]
+Grammer\test_ExceptionCond_Parser.py .                                   [ 74%]
+Grammer\test_MultiCond_Parser.py ....                                    [ 78%]
+Grammer\test_QuadCond_Parser.py ................                         [ 91%]
+Grammer\test_SingleCond_Parser.py ..                                     [ 93%]
+Grammer\test_TriCond_Parser.py ........                                  [100%]
+
+----- generated report: F:\GitRepos\LogExAn\REPORTS\TestCaseResults.html ------
+============================ 119 passed in 10.87s =============================
