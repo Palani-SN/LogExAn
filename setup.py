@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="LogExAn",
-    version="0.0.1",
+    version="0.0.2",
     description="Logical Expression Analysis",
     py_modules=["LogExAn/LogicalAnalyser"],
     package_dir={"": "SRCS"},
