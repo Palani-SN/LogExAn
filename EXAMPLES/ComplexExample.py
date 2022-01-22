@@ -2,7 +2,7 @@ from LogExAn.LogicalAnalyser import LogAn
 import ast
 import json
 
-CondList = [ 
+ConditionsList = [ 
 
          " Var_new_1 > 5 ",
          " Var_new_1 < 5 ",
@@ -20,63 +20,19 @@ CondList = [
 
            ];
 
-for i in range(len(CondList)):
-
-    LA = LogAn(CondList[i], True);
-    DF_Out = LA.getDF()
-
-    Expanded_Dict = {};
-    for idx, row in DF_Out.iterrows():
-        Result_Dict = ast.literal_eval(row['Result'])
-        Var_Dict = {};
-        for key, val in Result_Dict.items():
-            Expanded_Range = []
-            for tup in val:
-                Expanded_Range += [*range(tup[0],tup[1])];
-            Var_Dict[key] = Expanded_Range;
-        Expanded_Dict[row['Condition']] = Var_Dict;
+for i in range(len(ConditionsList)):
+    
+    LA = LogAn(ConditionsList[i]);
 
     Act_String = f""" 
-{CondList[i]} True
+{ConditionsList[i]}
 
-{DF_Out.to_markdown()}
+{LA.solution('JSON')}
 
-{json.dumps(Expanded_Dict, sort_keys=True, indent=4)}""";
+{LA.elaborate_solution('MARKDOWN')}""";
 
-    OutputFile = open(f'True_Condition{i+1}.log', "w");
+    OutputFile = open(f'Condition{i+1}.log', "w");
     OutputFile.write(Act_String)
     OutputFile.close();
-
-    print(f'True_Condition{i+1}.log : Done');
-
-
-for i in range(len(CondList)):
-
-    LA = LogAn(CondList[i], False);
-    DF_Out = LA.getDF()
-
-    Expanded_Dict = {};
-    for idx, row in DF_Out.iterrows():
-        Result_Dict = ast.literal_eval(row['Result'])
-        Var_Dict = {};
-        for key, val in Result_Dict.items():
-            Expanded_Range = []
-            for tup in val:
-                Expanded_Range += [*range(tup[0],tup[1])];
-            Var_Dict[key] = Expanded_Range;
-        Expanded_Dict[row['Condition']] = Var_Dict;
-
-    Act_String = f""" 
-{CondList[i]} False
-
-{DF_Out.to_markdown()}
-
-{json.dumps(Expanded_Dict, sort_keys=True, indent=4)}""";
-
-    OutputFile = open(f'False_Condition{i+1}.log', "w");
-    OutputFile.write(Act_String)
-    OutputFile.close();
-
-    print(f'False_Condition{i+1}.log : Done');
-
-
+    print(f'Condition{i+1}.log : Done');
+        

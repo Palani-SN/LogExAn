@@ -16,4 +16,4 @@ Grammer\test_SingleCond_Parser.py ..                                     [ 93%]
 Grammer\test_TriCond_Parser.py ........                                  [100%]
 
 ----- generated report: F:\GitRepos\LogExAn\REPORTS\TestCaseResults.html ------
-============================ 119 passed in 17.11s =============================
+============================ 119 passed in 11.51s =============================

@@ -1,45 +1,24 @@
 from LogExAn.LogicalAnalyser import LogAn
-import ast
 
-ConditionsList = [
+Cond = "( ( Var_new_1 == 1 ) && ( ( Var_new_4 == 7 ) || ( Var_new_9 == 12 ) ) )";
+LA = LogAn(Cond);
 
-        " Var_new_1 > 5 ",
-        " Var_new_1 < 5 ",
+# Default Argument 'DICT' returns dict 
+asDict = LA.solution(); 
+print('type :', type(asDict), end = '\n\n');
+print(asDict, end = '\n\n');
 
-        " Var_new_1 == 5 ",
-        " Var_new_1 != 5 ",
-        
-        " Var_new_1 >= 5 ",
-        " Var_new_1 <= 5 "
+# Argument 'JSON' returns json formatted string (from the Dict)
+asJson = LA.solution('JSON');
+print('type :', type(asJson), end = '\n\n');
+print(asJson, end = '\n\n');
 
-];
+# Default Argument 'DATAFRAME' returns dataframe
+asDataframe = LA.elaborate_solution();
+print('type :', type(asDataframe), end = '\n\n');
+print(asDataframe, end = '\n\n');
 
-ResultList = [
-
-        True,
-        False
-
-]
-
-for Cond in ConditionsList:
-    
-    for Res in ResultList:
-        print()
-
-        LA = LogAn(Cond, Res);
-        DF_Out = LA.getDF()
-
-        Range_List = ast.literal_eval(DF_Out.loc[0, 'Result'])['Var_new_1']
-        Actual_List = [];
-        for tup in Range_List:
-            Actual_List += [*range(tup[0], tup[1])]
-
-        print(f'Cond : {Cond}', '|' ,f'Res : {Res}');
-
-        print()
-
-        print(DF_Out.to_markdown())
-
-        print()
-
-        print(f"Actual list from DF_Out['Result'] {Actual_List}")
+# Argument 'MARKDOWN' returns markdown formatted string (from the Dataframe)
+asMarkdown = LA.elaborate_solution('MARKDOWN');
+print('type :', type(asMarkdown), end = '\n\n');
+print(asMarkdown, end = '\n\n');
